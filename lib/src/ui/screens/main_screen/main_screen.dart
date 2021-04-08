@@ -8,6 +8,8 @@ import 'package:top_news_app/src/bloc/bloc.dart';
 import 'components/everything_tab.dart';
 import 'components/top_headlines_tab.dart';
 
+
+//Main Screen tabs and news
 class MainScreen extends StatefulWidget {
 
   @override

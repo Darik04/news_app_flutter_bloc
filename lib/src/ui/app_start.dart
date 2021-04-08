@@ -10,6 +10,8 @@ import 'package:http/http.dart' as http;
 import 'screens/favorite_screen/favorite_screen.dart';
 
 
+
+//Start app! and main bottom nav bar!
 class AppStart extends StatefulWidget {
 
   @override

@@ -3,6 +3,8 @@ import 'package:top_news_app/src/bloc/bloc.dart';
 import 'package:top_news_app/src/data/models/article_model.dart';
 import 'package:top_news_app/src/ui/screens/detail_screen/components/detail_content.dart';
 
+
+//Detail Screen Просмотр новости!
 class DetailScreen extends StatelessWidget {
 
   final Article article;

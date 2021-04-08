@@ -4,6 +4,8 @@ import 'package:top_news_app/src/bloc/bloc.dart';
 
 import 'components/favorite_content.dart';
 
+
+//Favorite Screen Закладки!
 class FavoriteScreen extends StatefulWidget {
 
   @override
