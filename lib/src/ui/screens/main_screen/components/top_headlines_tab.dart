@@ -36,7 +36,7 @@ class _TopHeadlinesTabState extends State<TopHeadlinesTab> {
   ScrollController _scrollController = new ScrollController(); 
   @override
   Widget build(BuildContext context) {
-    timer = Timer.periodic(Duration(seconds: 80), (Timer t) => {
+    timer = Timer.periodic(Duration(seconds: 5), (Timer t) => {
       widget.newsBloc.add(FetchTopHeadlinesStart())
     });
     return Scaffold(
