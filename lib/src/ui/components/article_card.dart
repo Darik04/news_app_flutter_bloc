@@ -13,8 +13,8 @@ class ArticleCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => DetailScreen(article: article, newsBloc: newsBloc,)));
         Navigator.of(context).push(_createRoute());
+        // Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => DetailScreen(article: article, newsBloc: newsBloc,))); 
       },
       child: Card(
           color: Colors.white,
