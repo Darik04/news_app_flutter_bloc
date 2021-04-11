@@ -20,7 +20,7 @@ class EverythingTab extends StatefulWidget {
 
 class _EverythingTabState extends State<EverythingTab> {
   
-  Timer timer;
+  
   @override
   void initState() { 
     super.initState();
